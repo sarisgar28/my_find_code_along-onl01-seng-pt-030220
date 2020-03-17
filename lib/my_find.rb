@@ -5,6 +5,7 @@ def my_find(collection)
   while i < collection.length
   yield (collection[i])
   i += 1 
-  return [i]nil 
+  return [i]
+  nil 
   end
 end
