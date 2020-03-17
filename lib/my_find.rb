@@ -9,5 +9,3 @@ def my_find(collection)
   nil 
   end
 end
-
-collection = .to_a my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 } 
